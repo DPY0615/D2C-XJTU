@@ -1,0 +1,12 @@
+{"time":"2026-02-09T16:32:21.252217047+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2026-02-09T16:32:21.935764799+08:00","level":"INFO","msg":"stream: created new stream","id":"zfk08myl"}
+{"time":"2026-02-09T16:32:21.936038616+08:00","level":"INFO","msg":"handler: started","stream_id":"zfk08myl"}
+{"time":"2026-02-09T16:32:21.93628692+08:00","level":"INFO","msg":"stream: started","id":"zfk08myl"}
+{"time":"2026-02-09T16:32:21.936447307+08:00","level":"INFO","msg":"sender: started","stream_id":"zfk08myl"}
+{"time":"2026-02-09T16:32:21.936435868+08:00","level":"INFO","msg":"writer: started","stream_id":"zfk08myl"}
+{"time":"2026-02-09T16:40:43.182291015+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/zfk08myl/file_stream\": read tcp 127.0.0.1:47290->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T17:12:16.475481431+08:00","level":"INFO","msg":"stream: closing","id":"zfk08myl"}
+{"time":"2026-02-09T17:12:18.619295591+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T17:12:19.438608194+08:00","level":"INFO","msg":"handler: closed","stream_id":"zfk08myl"}
+{"time":"2026-02-09T17:12:19.438955703+08:00","level":"INFO","msg":"sender: closed","stream_id":"zfk08myl"}
+{"time":"2026-02-09T17:12:19.439005392+08:00","level":"INFO","msg":"stream: closed","id":"zfk08myl"}

@@ -2,6 +2,7 @@ from typing import Any, Optional, Callable, Union
 from d2c.envs import BaseEnv
 from d2c.envs.external.d4rl import D4rlEnv
 from d2c.envs.external.gym_mujoco import GymEnv
+# from d2c.envs.external.isaacgym import IsaacGymEnv
 
 def d4rl_env(config: Any, **kwargs: Any) -> D4rlEnv:
     env_name = config.model_config.env.external.env_name
@@ -14,15 +15,36 @@ def gym_env(config: Any, **kwargs: Any) -> GymEnv:
     model_name = config.model_config.model.model_name
     return GymEnv(env_name, model_name)
 
+""" Avoiding the Error: PyTorch was imported before isaacgym modules"""
+# def isaacgym_env(config: Any, **kwargs: Any) -> IsaacGymEnv:
+#    env_name = getattr(config.model_config.env.external, "env_name", "isaacgym")
+#    obs_shift = kwargs.get('obs_shift')
+#    obs_scale = kwargs.get('obs_scale')
+#    return IsaacGymEnv(env_name, obs_shift, obs_scale, config=config)
+
+def isaacgym_env(config: Any, **kwargs: Any) -> BaseEnv:
+    # lazy import
+    from d2c.envs.external.isaacgym.isaacgym import IsaacGymEnv
+    env_name = config.model_config.env.external.env_name
+    obs_shift = kwargs.get("obs_shift")
+    obs_scale = kwargs.get("obs_scale")
+    return IsaacGymEnv(config, obs_shift=obs_shift, obs_scale=obs_scale)
+
+def _get_isaacgym_cls():
+    from d2c.envs.external.isaacgym.isaacgym import IsaacGymEnv
+    return IsaacGymEnv
+
 ENV_DICT = {
     'd4rl': D4rlEnv,
     'gym': GymEnv,
+    'isaacgym': _get_isaacgym_cls,
 }
 
 
 ENV_FUNC_DICT = {
     'd4rl': d4rl_env,
     'gym': gym_env,
+    'isaacgym':isaacgym_env,
 }
 
 
@@ -40,11 +62,20 @@ def benchmark_env(
         env class will be returned.
     :param kwargs: some parameters like ``obs_shift``, ``obs_scale``
     """
+#    if config is not None:
+#        benchmark_name = config.model_config.env.external.benchmark_name
+#        assert benchmark_name in ENV_FUNC_DICT.keys()
+#        return ENV_FUNC_DICT[benchmark_name](config, **kwargs)
+#    else:
+#        assert benchmark_name is not None
+#        assert benchmark_name in ENV_DICT.keys()
+#        return ENV_DICT[benchmark_name]
     if config is not None:
-        benchmark_name = config.model_config.env.external.benchmark_name
-        assert benchmark_name in ENV_FUNC_DICT.keys()
-        return ENV_FUNC_DICT[benchmark_name](config, **kwargs)
-    else:
-        assert benchmark_name is not None
-        assert benchmark_name in ENV_DICT.keys()
-        return ENV_DICT[benchmark_name]
+            benchmark_name = config.model_config.env.external.benchmark_name
+            assert benchmark_name in ENV_FUNC_DICT
+            return ENV_FUNC_DICT[benchmark_name](config, **kwargs)
+
+    assert benchmark_name is not None
+    assert benchmark_name in ENV_DICT
+    v = ENV_DICT[benchmark_name]
+    return v() if callable(v) and not isinstance(v, type) else v

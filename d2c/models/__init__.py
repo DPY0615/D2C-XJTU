@@ -13,6 +13,7 @@ from d2c.models.imitation.bc import BCAgent
 from d2c.models.model_free.iql import IQLAgent
 from d2c.models.model_free.sac import SACAgent
 from d2c.models.model_free.ppo import PPOAgent
+from d2c.models.model_free.isaacgym_ppo import ISAACGYM_PPOAgent
 
 AGENT_MODULES_DICT = {
     'td3_bc': TD3BCAgent,
@@ -24,6 +25,7 @@ AGENT_MODULES_DICT = {
     'iql': IQLAgent,
     'sac': SACAgent,
     'ppo': PPOAgent,
+    'isaacgym_ppo': ISAACGYM_PPOAgent,
 }
 
 

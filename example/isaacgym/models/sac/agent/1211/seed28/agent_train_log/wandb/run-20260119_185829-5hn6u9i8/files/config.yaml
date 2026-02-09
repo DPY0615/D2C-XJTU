@@ -1,0 +1,78 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            wuyah5xav8ajrrjdjfen86rnci8esgjv:
+                codePath: example/isaacgym/demo_sac.py
+                codePathLocal: demo_sac.py
+                email: dupengyu0615@gmail.com
+                executable: /home/dpy/miniconda3/envs/d2c_py38/bin/python
+                git:
+                    commit: 06c2682994674793ae655fe657c05452223a81a0
+                    remote: https://github.com/EzioPeter/D2C-XJTU.git
+                host: Dpy
+                os: Linux-5.15.0-139-generic-x86_64-with-glibc2.17
+                program: demo_sac.py
+                python: CPython 3.8.20
+                root: /home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/models/sac/agent/1211/seed28/agent_train_log
+                startedAt: "2026-01-19T10:58:29.583877Z"
+                writerId: wuyah5xav8ajrrjdjfen86rnci8esgjv
+        m: []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.8.20
+            "5": 0.23.0
+            "10":
+                - 20
+            "12": 0.23.0
+            "13": linux-x86_64
+action_noise:
+    value: null
+batch_size:
+    value: 256
+device:
+    value: cuda
+discount:
+    value: 0.99
+env_external:
+    value:
+        benchmark_name: isaacgym
+        data_file_path: null
+        data_name: halfcheetah_medium_replay-v2
+        data_source: real_world
+        env_name: pointfoot
+        headless: true
+        num_envs: 20
+        num_transitions: -1
+        resume: false
+        reward_normalize: false
+        score_norm_max: null
+        score_norm_min: null
+        score_normalize: false
+        state_normalize: false
+        task: pointfoot_flat
+model_name:
+    value: sac
+model_params:
+    value: '{''q'': [[256, 256], 2], ''p'': [[256, 256]]}'
+optimizers:
+    value: '{''q'': [''adam'', 0.0003], ''p'': [''adam'', 0.0003], ''alpha'': [''adam'', 0.0003]}'
+rollout_sim_num:
+    value: "100"
+seed:
+    value: 28
+test_data_ratio:
+    value: 0.1
+total_train_steps:
+    value: 1000000
+update_freq:
+    value: 1
+update_rate:
+    value: 0.005

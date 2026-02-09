@@ -1,0 +1,17 @@
+{
+  "os": "Linux-5.15.0-139-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2026-01-19T11:02:53.022166Z",
+  "program": "demo_sac.py",
+  "codePath": "example/isaacgym/demo_sac.py",
+  "codePathLocal": "demo_sac.py",
+  "git": {
+    "remote": "https://github.com/EzioPeter/D2C-XJTU.git",
+    "commit": "06c2682994674793ae655fe657c05452223a81a0"
+  },
+  "email": "dupengyu0615@gmail.com",
+  "root": "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/models/sac/agent/1211/seed30/agent_train_log",
+  "host": "Dpy",
+  "executable": "/home/dpy/miniconda3/envs/d2c_py38/bin/python",
+  "writerId": "wm4bc04xlj29d1r2o849rjg0zic0vqvo"
+}

@@ -1,0 +1,44 @@
+{
+  "os": "Linux-5.15.0-139-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2026-02-09T09:56:27.399650Z",
+  "args": [
+    "--task",
+    "pointfoot_flat"
+  ],
+  "program": "demo_ppo.py",
+  "codePath": "example/isaacgym/demo_ppo.py",
+  "codePathLocal": "demo_ppo.py",
+  "git": {
+    "remote": "https://github.com/EzioPeter/D2C-XJTU.git",
+    "commit": "06c2682994674793ae655fe657c05452223a81a0"
+  },
+  "email": "dupengyu0615@gmail.com",
+  "root": "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym",
+  "host": "Dpy",
+  "executable": "/home/dpy/miniconda3/envs/d2c_py38/bin/python",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "215718916096",
+      "used": "64598765568"
+    }
+  },
+  "memory": {
+    "total": "16544526336"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "memoryTotal": "6442450944",
+      "cudaCores": 3840,
+      "architecture": "Ampere",
+      "uuid": "GPU-c47c0f0a-7749-902a-6183-492d0747111b"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "secpx21a9hdxqihqpldl3nh0xyy9b6az"
+}

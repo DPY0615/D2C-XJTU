@@ -1,5 +1,6 @@
 from typing import Any, Union
 from d2c.evaluators.sim.benchmark import BMEval, OnPolicyBMEval, OffPolicyBMEval
+from d2c.evaluators.sim.isaacgym_eval import IsaacGymEval
 from d2c.models import BaseAgent
 from d2c.envs import BaseEnv
 from d2c.utils.utils import Flags
@@ -73,3 +74,19 @@ def offpolicy_bm_eval(
     return OffPolicyBMEval(result_dir=result_dir, agent=agent, env=env, n_eval_episodes=n_eval_episodes,
                   score_normalize=score_normalize, score_norm_min=score_norm_min,
                   score_norm_max=score_norm_max, seed=seed)
+    
+def isaacgym_eval(
+        agent: BaseAgent,
+        env: BaseEnv,
+        config: Union[Any, Flags]
+) -> IsaacGymEval:
+    """Build IsaacGym evaluator (zero-cost, reads from training rollout stats).
+
+    :param BaseAgent agent: The agent to be evaluated.
+    :param BaseEnv env: An env (not used for simulation, only for interface compatibility).
+    :param config: The configuration object.
+    """
+    log_dir = config.model_config.eval.log_dir
+    agent_dir = config.model_config.train.agent_ckpt_dir
+    result_dir = agent_dir + '_' + log_dir
+    return IsaacGymEval(result_dir=result_dir, agent=agent, env=env)

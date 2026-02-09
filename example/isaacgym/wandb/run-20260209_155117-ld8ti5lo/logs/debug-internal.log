@@ -1,0 +1,34 @@
+{"time":"2026-02-09T15:51:18.011776956+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.0"}
+{"time":"2026-02-09T15:51:18.758622295+08:00","level":"INFO","msg":"stream: created new stream","id":"ld8ti5lo"}
+{"time":"2026-02-09T15:51:18.75875752+08:00","level":"INFO","msg":"handler: started","stream_id":"ld8ti5lo"}
+{"time":"2026-02-09T15:51:18.759072175+08:00","level":"INFO","msg":"stream: started","id":"ld8ti5lo"}
+{"time":"2026-02-09T15:51:18.759234191+08:00","level":"INFO","msg":"writer: started","stream_id":"ld8ti5lo"}
+{"time":"2026-02-09T15:51:18.759246783+08:00","level":"INFO","msg":"sender: started","stream_id":"ld8ti5lo"}
+{"time":"2026-02-09T15:57:52.625805044+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":3955}
+{"time":"2026-02-09T15:57:53.04371901+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/ld8ti5lo/file_stream\": read tcp 127.0.0.1:43744->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T15:57:58.447897097+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/ld8ti5lo/file_stream\": read tcp 127.0.0.1:50554->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T15:58:07.660152677+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/ld8ti5lo/file_stream\": read tcp 127.0.0.1:34994->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T15:58:17.107189522+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/ld8ti5lo/file_stream\": read tcp 127.0.0.1:40194->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T15:58:19.538316044+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T15:58:38.575900083+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/files/dupengyu0615-xi-an-jiaotong-university-/isaacgym_pointfoot/ld8ti5lo/file_stream\": read tcp 127.0.0.1:49090->127.0.0.1:7890: read: connection reset by peer"}
+{"time":"2026-02-09T15:58:51.80850689+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T15:59:26.534058525+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded"}
+{"time":"2026-02-09T16:00:05.739386367+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded"}
+{"time":"2026-02-09T16:00:53.053339847+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:01:56.406450309+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:03:26.407220972+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:04:56.408131375+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:05:17.922460021+08:00","level":"INFO","msg":"stream: closing","id":"ld8ti5lo"}
+{"time":"2026-02-09T16:06:26.409511537+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded"}
+{"time":"2026-02-09T16:07:49.538177928+08:00","level":"WARN","msg":"sender: taking a long time","seconds":600.0001566,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"diz82oau42s0\" connection_id:\"1(@)\")"}
+{"time":"2026-02-09T16:07:56.41117527+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded"}
+{"time":"2026-02-09T16:09:26.411844949+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:10:56.412363375+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:12:26.414353709+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": context deadline exceeded"}
+{"time":"2026-02-09T16:13:56.416233327+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.bandw.top/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-02-09T16:14:57.102713576+08:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":1027.564748828,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"diz82oau42s0\" connection_id:\"1(@)\")"}
+{"time":"2026-02-09T16:14:57.213355003+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":4685}
+{"time":"2026-02-09T16:14:58.842806323+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T16:15:01.403196523+08:00","level":"INFO","msg":"handler: closed","stream_id":"ld8ti5lo"}
+{"time":"2026-02-09T16:15:01.403542+08:00","level":"INFO","msg":"sender: closed","stream_id":"ld8ti5lo"}
+{"time":"2026-02-09T16:15:01.403656544+08:00","level":"INFO","msg":"stream: closed","id":"ld8ti5lo"}

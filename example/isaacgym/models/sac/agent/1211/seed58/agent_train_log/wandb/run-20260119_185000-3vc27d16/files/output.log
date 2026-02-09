@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "demo_sac.py", line 141, in <module>
+    main(args)
+  File "demo_sac.py", line 136, in main
+    trainer.train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 53, in train
+    _custom_train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 139, in custom_train
+    train_fn_dict[x]()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 75, in _train_agent
+    self._agent._current_state, _ = self._env.reset(seed=self._train_cfg.seed)
+ValueError: too many values to unpack (expected 2)

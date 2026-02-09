@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "demo_sac.py", line 141, in <module>
+    main(args)
+  File "demo_sac.py", line 136, in main
+    trainer.train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 53, in train
+    _custom_train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 139, in custom_train
+    train_fn_dict[x]()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/offpolicytrainer.py", line 78, in _train_agent
+    self._agent.train_step()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/models/base.py", line 126, in train_step
+    train_batch = self._get_train_batch()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/models/model_free/sac.py", line 211, in _get_train_batch
+    next_obs, rewards, terminations, truncations, infos = self._env.step(actions)
+ValueError: not enough values to unpack (expected 5, got 4)

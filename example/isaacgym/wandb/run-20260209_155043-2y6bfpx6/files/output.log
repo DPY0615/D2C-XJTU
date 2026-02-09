@@ -1,0 +1,92 @@
+Setting seed: 57
+[Iter 1/4069]  step=24576  ep_rew=0.0000  ep_len=26.0000  pi_loss=-0.0018  v_loss=1.1011  kl=0.0084  lr=0.0010  fps=43039  time=1s
+INFO:root:Step 24576;
+[Iter 2/4069]  step=49152  ep_rew=-0.1222  ep_len=47.7207  pi_loss=-0.0034  v_loss=3.6575  kl=0.0049  lr=0.0010  fps=41143  time=1s
+INFO:root:Step 49152;
+[Iter 3/4069]  step=73728  ep_rew=-0.5435  ep_len=27.7227  pi_loss=-0.0044  v_loss=1.4717  kl=0.0052  lr=0.0010  fps=41160  time=2s
+INFO:root:Step 73728;
+[Iter 4/4069]  step=98304  ep_rew=-0.7244  ep_len=33.3789  pi_loss=-0.0041  v_loss=2.0358  kl=0.0049  lr=0.0010  fps=41374  time=2s
+INFO:root:Step 98304;
+[Iter 5/4069]  step=122880  ep_rew=-0.5172  ep_len=35.2471  pi_loss=-0.0048  v_loss=2.3050  kl=0.0054  lr=0.0010  fps=41713  time=3s
+INFO:root:Step 122880;
+[Iter 6/4069]  step=147456  ep_rew=-0.5882  ep_len=31.0498  pi_loss=-0.0066  v_loss=1.6605  kl=0.0051  lr=0.0010  fps=41954  time=4s
+INFO:root:Step 147456;
+[Iter 7/4069]  step=172032  ep_rew=-0.5870  ep_len=34.0254  pi_loss=-0.0072  v_loss=1.8360  kl=0.0058  lr=0.0010  fps=41874  time=4s
+INFO:root:Step 172032;
+[Iter 8/4069]  step=196608  ep_rew=-0.5468  ep_len=31.6777  pi_loss=-0.0085  v_loss=1.6197  kl=0.0063  lr=0.0010  fps=41932  time=5s
+INFO:root:Step 196608;
+[Iter 9/4069]  step=221184  ep_rew=-0.5716  ep_len=32.2441  pi_loss=-0.0071  v_loss=1.5112  kl=0.0062  lr=0.0010  fps=41939  time=5s
+INFO:root:Step 221184;
+[Iter 10/4069]  step=245760  ep_rew=-0.5443  ep_len=32.6709  pi_loss=-0.0069  v_loss=1.4570  kl=0.0063  lr=0.0010  fps=41954  time=6s
+INFO:root:Step 245760;
+INFO:root:[Eval] step=245760  ep_rew_mean=-0.5443  ep_len_mean=32.7
+[Iter 11/4069]  step=270336  ep_rew=-0.5495  ep_len=31.9053  pi_loss=-0.0080  v_loss=1.4310  kl=0.0056  lr=0.0010  fps=42159  time=6s
+INFO:root:Step 270336;
+[Iter 12/4069]  step=294912  ep_rew=-0.5483  ep_len=32.5225  pi_loss=-0.0076  v_loss=1.3653  kl=0.0065  lr=0.0010  fps=42210  time=7s
+INFO:root:Step 294912;
+[Iter 13/4069]  step=319488  ep_rew=-0.5571  ep_len=32.8223  pi_loss=-0.0080  v_loss=1.3987  kl=0.0066  lr=0.0010  fps=42051  time=8s
+INFO:root:Step 319488;
+[Iter 14/4069]  step=344064  ep_rew=-0.5458  ep_len=31.9727  pi_loss=-0.0071  v_loss=1.2974  kl=0.0056  lr=0.0010  fps=42212  time=8s
+INFO:root:Step 344064;
+[Iter 15/4069]  step=368640  ep_rew=-0.5321  ep_len=33.3682  pi_loss=-0.0062  v_loss=1.2563  kl=0.0048  lr=0.0010  fps=42174  time=9s
+INFO:root:Step 368640;
+[Iter 16/4069]  step=393216  ep_rew=-0.5379  ep_len=31.7148  pi_loss=-0.0063  v_loss=1.2469  kl=0.0063  lr=0.0010  fps=42263  time=9s
+INFO:root:Step 393216;
+[Iter 17/4069]  step=417792  ep_rew=-0.5320  ep_len=32.4355  pi_loss=-0.0048  v_loss=1.1832  kl=0.0084  lr=0.0010  fps=42280  time=10s
+INFO:root:Step 417792;
+[Iter 18/4069]  step=442368  ep_rew=-0.5230  ep_len=32.3027  pi_loss=-0.0052  v_loss=1.1883  kl=0.0082  lr=0.0010  fps=42194  time=10s
+INFO:root:Step 442368;
+[Iter 19/4069]  step=466944  ep_rew=-0.5208  ep_len=32.0039  pi_loss=-0.0054  v_loss=1.1354  kl=0.0078  lr=0.0010  fps=42248  time=11s
+INFO:root:Step 466944;
+[Iter 20/4069]  step=491520  ep_rew=-0.5208  ep_len=33.4131  pi_loss=-0.0038  v_loss=1.0870  kl=0.0087  lr=0.0010  fps=42352  time=12s
+INFO:root:Step 491520;
+INFO:root:[Eval] step=491520  ep_rew_mean=-0.5208  ep_len_mean=33.4
+[Iter 21/4069]  step=516096  ep_rew=-0.5054  ep_len=30.7002  pi_loss=-0.0070  v_loss=1.1238  kl=0.0086  lr=0.0010  fps=42096  time=12s
+INFO:root:Step 516096;
+[Iter 22/4069]  step=540672  ep_rew=-0.5033  ep_len=32.7070  pi_loss=-0.0065  v_loss=0.9768  kl=0.0086  lr=0.0010  fps=41335  time=13s
+INFO:root:Step 540672;
+[Iter 23/4069]  step=565248  ep_rew=-0.4959  ep_len=32.1113  pi_loss=-0.0059  v_loss=1.0745  kl=0.0101  lr=0.0010  fps=41098  time=14s
+INFO:root:Step 565248;
+[Iter 24/4069]  step=589824  ep_rew=-0.4954  ep_len=31.8574  pi_loss=-0.0057  v_loss=1.1098  kl=0.0116  lr=0.0010  fps=40941  time=14s
+INFO:root:Step 589824;
+[Iter 25/4069]  step=614400  ep_rew=-0.4939  ep_len=32.4893  pi_loss=-0.0047  v_loss=1.0168  kl=0.0095  lr=0.0010  fps=40833  time=15s
+INFO:root:Step 614400;
+[Iter 26/4069]  step=638976  ep_rew=-0.4892  ep_len=31.6758  pi_loss=-0.0046  v_loss=1.0943  kl=0.0124  lr=0.0010  fps=40844  time=16s
+INFO:root:Step 638976;
+[Iter 27/4069]  step=663552  ep_rew=-0.4745  ep_len=30.5723  pi_loss=-0.0049  v_loss=1.0163  kl=0.0109  lr=0.0010  fps=40942  time=16s
+INFO:root:Step 663552;
+[Iter 28/4069]  step=688128  ep_rew=-0.4595  ep_len=31.4844  pi_loss=-0.0041  v_loss=0.9954  kl=0.0124  lr=0.0010  fps=41010  time=17s
+INFO:root:Step 688128;
+[Iter 29/4069]  step=712704  ep_rew=-0.4647  ep_len=31.7627  pi_loss=-0.0051  v_loss=0.9703  kl=0.0090  lr=0.0010  fps=41089  time=17s
+INFO:root:Step 712704;
+[Iter 30/4069]  step=737280  ep_rew=-0.4602  ep_len=30.7539  pi_loss=-0.0055  v_loss=0.9784  kl=0.0092  lr=0.0010  fps=41055  time=18s
+INFO:root:Step 737280;
+INFO:root:[Eval] step=737280  ep_rew_mean=-0.4602  ep_len_mean=30.8
+[Iter 31/4069]  step=761856  ep_rew=-0.4539  ep_len=31.4834  pi_loss=-0.0051  v_loss=0.9390  kl=0.0111  lr=0.0010  fps=41030  time=19s
+INFO:root:Step 761856;
+[Iter 32/4069]  step=786432  ep_rew=-0.4424  ep_len=30.8369  pi_loss=-0.0048  v_loss=0.9703  kl=0.0100  lr=0.0010  fps=41089  time=19s
+INFO:root:Step 786432;
+[Iter 33/4069]  step=811008  ep_rew=-0.4482  ep_len=31.2803  pi_loss=-0.0066  v_loss=0.9231  kl=0.0088  lr=0.0010  fps=41150  time=20s
+INFO:root:Step 811008;
+Traceback (most recent call last):
+  File "demo_ppo.py", line 126, in <module>
+    main(args)
+  File "demo_ppo.py", line 121, in main
+    trainer.train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/isaaconpolicytrainer.py", line 103, in train
+    self._train_agent()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/isaaconpolicytrainer.py", line 52, in _train_agent
+    self._agent.train_step()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/models/model_free/isaacgym_ppo.py", line 448, in train_step
+    mean_v_loss, mean_extra_loss, mean_pi_loss, mean_kl = self._ppo.update()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/networks_and_utils_for_agent/isaacgym_ppo_utils/ppo.py", line 220, in update
+    self.actor_critic.act(actor_input)
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/networks_and_utils_for_agent/isaacgym_ppo_utils/actor_critic.py", line 158, in act
+    self.update_distribution(observations)
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/networks_and_utils_for_agent/isaacgym_ppo_utils/actor_critic.py", line 155, in update_distribution
+    self.distribution = Normal(mean, mean * 0.0 + torch.exp(self.logstd))
+  File "/home/dpy/miniconda3/envs/d2c_py38/lib/python3.8/site-packages/torch/distributions/normal.py", line 54, in __init__
+    super(Normal, self).__init__(batch_shape, validate_args=validate_args)
+  File "/home/dpy/miniconda3/envs/d2c_py38/lib/python3.8/site-packages/torch/distributions/distribution.py", line 54, in __init__
+    if not valid.all():
+KeyboardInterrupt

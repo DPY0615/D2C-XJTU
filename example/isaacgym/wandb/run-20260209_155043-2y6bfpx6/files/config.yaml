@@ -1,0 +1,54 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            xm3yd15pfyxy2r33hjs594i42yp3mw7t:
+                args:
+                    - --task
+                    - pointfoot_flat
+                codePath: example/isaacgym/demo_ppo.py
+                codePathLocal: demo_ppo.py
+                cpu_count: 14
+                cpu_count_logical: 20
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "215718916096"
+                        used: "64506351616"
+                email: dupengyu0615@gmail.com
+                executable: /home/dpy/miniconda3/envs/d2c_py38/bin/python
+                git:
+                    commit: 06c2682994674793ae655fe657c05452223a81a0
+                    remote: https://github.com/EzioPeter/D2C-XJTU.git
+                gpu: NVIDIA GeForce RTX 3060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3840
+                      memoryTotal: "6442450944"
+                      name: NVIDIA GeForce RTX 3060 Laptop GPU
+                      uuid: GPU-c47c0f0a-7749-902a-6183-492d0747111b
+                host: Dpy
+                memory:
+                    total: "16544526336"
+                os: Linux-5.15.0-139-generic-x86_64-with-glibc2.17
+                program: demo_ppo.py
+                python: CPython 3.8.20
+                root: /home/dpy/projects/D2C-XJTU-3.8/example/isaacgym
+                startedAt: "2026-02-09T07:50:43.741268Z"
+                writerId: xm3yd15pfyxy2r33hjs594i42yp3mw7t
+        m: []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+            "4": 3.8.20
+            "5": 0.23.0
+            "10":
+                - 20
+            "12": 0.23.0
+            "13": linux-x86_64

@@ -1,0 +1,178 @@
+Setting seed: 42
+[Iter 1/4069]  step=24576  ep_rew=0.0000  ep_len=26.0000  pi_loss=0.0017  v_loss=0.9997  kl=0.0110  lr=0.0010  fps=42408  time=1s
+INFO:root:Step 24576;
+[Iter 2/4069]  step=49152  ep_rew=-0.1119  ep_len=47.6279  pi_loss=-0.0031  v_loss=3.4844  kl=0.0047  lr=0.0010  fps=40188  time=1s
+INFO:root:Step 49152;
+[Iter 3/4069]  step=73728  ep_rew=-0.5300  ep_len=27.5107  pi_loss=-0.0043  v_loss=1.4101  kl=0.0053  lr=0.0010  fps=41258  time=2s
+INFO:root:Step 73728;
+[Iter 4/4069]  step=98304  ep_rew=-0.7004  ep_len=32.9111  pi_loss=-0.0032  v_loss=2.0544  kl=0.0050  lr=0.0010  fps=42033  time=2s
+INFO:root:Step 98304;
+[Iter 5/4069]  step=122880  ep_rew=-0.5082  ep_len=34.0391  pi_loss=-0.0051  v_loss=2.1453  kl=0.0059  lr=0.0010  fps=42246  time=3s
+INFO:root:Step 122880;
+[Iter 6/4069]  step=147456  ep_rew=-0.5796  ep_len=30.0010  pi_loss=-0.0050  v_loss=1.6883  kl=0.0051  lr=0.0010  fps=42341  time=3s
+INFO:root:Step 147456;
+[Iter 7/4069]  step=172032  ep_rew=-0.5708  ep_len=34.5752  pi_loss=-0.0054  v_loss=1.8898  kl=0.0054  lr=0.0010  fps=42279  time=4s
+INFO:root:Step 172032;
+[Iter 8/4069]  step=196608  ep_rew=-0.5509  ep_len=31.9375  pi_loss=-0.0072  v_loss=1.6722  kl=0.0055  lr=0.0010  fps=42202  time=5s
+INFO:root:Step 196608;
+[Iter 9/4069]  step=221184  ep_rew=-0.5657  ep_len=32.3701  pi_loss=-0.0066  v_loss=1.5316  kl=0.0054  lr=0.0010  fps=42253  time=5s
+INFO:root:Step 221184;
+[Iter 10/4069]  step=245760  ep_rew=-0.5481  ep_len=33.0801  pi_loss=-0.0082  v_loss=1.4196  kl=0.0058  lr=0.0010  fps=42247  time=6s
+INFO:root:Step 245760;
+INFO:root:[Eval] step=245760  ep_rew_mean=-0.5481  ep_len_mean=33.1
+[Iter 11/4069]  step=270336  ep_rew=-0.5569  ep_len=33.2090  pi_loss=-0.0079  v_loss=1.4694  kl=0.0061  lr=0.0010  fps=42317  time=6s
+INFO:root:Step 270336;
+[Iter 12/4069]  step=294912  ep_rew=-0.5500  ep_len=32.5166  pi_loss=-0.0084  v_loss=1.3950  kl=0.0064  lr=0.0010  fps=42314  time=7s
+INFO:root:Step 294912;
+[Iter 13/4069]  step=319488  ep_rew=-0.5434  ep_len=32.7559  pi_loss=-0.0073  v_loss=1.3269  kl=0.0064  lr=0.0010  fps=42183  time=8s
+INFO:root:Step 319488;
+[Iter 14/4069]  step=344064  ep_rew=-0.5441  ep_len=33.0381  pi_loss=-0.0056  v_loss=1.2795  kl=0.0074  lr=0.0010  fps=42284  time=8s
+INFO:root:Step 344064;
+[Iter 15/4069]  step=368640  ep_rew=-0.5380  ep_len=31.6680  pi_loss=-0.0053  v_loss=1.2282  kl=0.0068  lr=0.0010  fps=42463  time=9s
+INFO:root:Step 368640;
+[Iter 16/4069]  step=393216  ep_rew=-0.5171  ep_len=32.5508  pi_loss=-0.0073  v_loss=1.2062  kl=0.0076  lr=0.0010  fps=42615  time=9s
+INFO:root:Step 393216;
+[Iter 17/4069]  step=417792  ep_rew=-0.5327  ep_len=32.4941  pi_loss=-0.0059  v_loss=1.0923  kl=0.0079  lr=0.0010  fps=42500  time=10s
+INFO:root:Step 417792;
+[Iter 18/4069]  step=442368  ep_rew=-0.5226  ep_len=31.0361  pi_loss=-0.0044  v_loss=1.1738  kl=0.0087  lr=0.0010  fps=42542  time=10s
+INFO:root:Step 442368;
+[Iter 19/4069]  step=466944  ep_rew=-0.5142  ep_len=32.5029  pi_loss=-0.0049  v_loss=1.0881  kl=0.0099  lr=0.0010  fps=42642  time=11s
+INFO:root:Step 466944;
+[Iter 20/4069]  step=491520  ep_rew=-0.5132  ep_len=32.6934  pi_loss=-0.0059  v_loss=1.0885  kl=0.0080  lr=0.0010  fps=42720  time=12s
+INFO:root:Step 491520;
+INFO:root:[Eval] step=491520  ep_rew_mean=-0.5132  ep_len_mean=32.7
+[Iter 21/4069]  step=516096  ep_rew=-0.4970  ep_len=31.2637  pi_loss=-0.0065  v_loss=1.1191  kl=0.0070  lr=0.0010  fps=42697  time=12s
+INFO:root:Step 516096;
+[Iter 22/4069]  step=540672  ep_rew=-0.5043  ep_len=32.0723  pi_loss=-0.0056  v_loss=1.0928  kl=0.0079  lr=0.0010  fps=42683  time=13s
+INFO:root:Step 540672;
+[Iter 23/4069]  step=565248  ep_rew=-0.4795  ep_len=30.9805  pi_loss=-0.0069  v_loss=1.0481  kl=0.0084  lr=0.0010  fps=42622  time=13s
+INFO:root:Step 565248;
+[Iter 24/4069]  step=589824  ep_rew=-0.4795  ep_len=32.4512  pi_loss=-0.0053  v_loss=1.0130  kl=0.0113  lr=0.0010  fps=42718  time=14s
+INFO:root:Step 589824;
+[Iter 25/4069]  step=614400  ep_rew=-0.4735  ep_len=32.2588  pi_loss=-0.0050  v_loss=1.0099  kl=0.0092  lr=0.0010  fps=42731  time=14s
+INFO:root:Step 614400;
+[Iter 26/4069]  step=638976  ep_rew=-0.4728  ep_len=30.7764  pi_loss=-0.0055  v_loss=1.0507  kl=0.0088  lr=0.0010  fps=42757  time=15s
+INFO:root:Step 638976;
+[Iter 27/4069]  step=663552  ep_rew=-0.4644  ep_len=32.6484  pi_loss=-0.0067  v_loss=0.9790  kl=0.0097  lr=0.0010  fps=42744  time=16s
+INFO:root:Step 663552;
+[Iter 28/4069]  step=688128  ep_rew=-0.4622  ep_len=32.6416  pi_loss=-0.0071  v_loss=1.0333  kl=0.0091  lr=0.0010  fps=42814  time=16s
+INFO:root:Step 688128;
+[Iter 29/4069]  step=712704  ep_rew=-0.4684  ep_len=31.7959  pi_loss=-0.0030  v_loss=1.0350  kl=0.0142  lr=0.0010  fps=42753  time=17s
+INFO:root:Step 712704;
+[Iter 30/4069]  step=737280  ep_rew=-0.4510  ep_len=30.5205  pi_loss=-0.0055  v_loss=1.0075  kl=0.0104  lr=0.0010  fps=42779  time=17s
+INFO:root:Step 737280;
+INFO:root:[Eval] step=737280  ep_rew_mean=-0.4510  ep_len_mean=30.5
+[Iter 31/4069]  step=761856  ep_rew=-0.4337  ep_len=32.5605  pi_loss=-0.0050  v_loss=0.9459  kl=0.0104  lr=0.0010  fps=42856  time=18s
+INFO:root:Step 761856;
+[Iter 32/4069]  step=786432  ep_rew=-0.4292  ep_len=30.0947  pi_loss=-0.0025  v_loss=1.0457  kl=0.0133  lr=0.0010  fps=42845  time=18s
+INFO:root:Step 786432;
+[Iter 33/4069]  step=811008  ep_rew=-0.4266  ep_len=30.4893  pi_loss=-0.0058  v_loss=0.9536  kl=0.0095  lr=0.0010  fps=42868  time=19s
+INFO:root:Step 811008;
+[Iter 34/4069]  step=835584  ep_rew=-0.4177  ep_len=32.2773  pi_loss=-0.0056  v_loss=0.9630  kl=0.0097  lr=0.0010  fps=42901  time=19s
+INFO:root:Step 835584;
+[Iter 35/4069]  step=860160  ep_rew=-0.4169  ep_len=29.9814  pi_loss=-0.0052  v_loss=0.9741  kl=0.0099  lr=0.0010  fps=42909  time=20s
+INFO:root:Step 860160;
+[Iter 36/4069]  step=884736  ep_rew=-0.4245  ep_len=32.1074  pi_loss=-0.0054  v_loss=0.9431  kl=0.0101  lr=0.0010  fps=42895  time=21s
+INFO:root:Step 884736;
+[Iter 37/4069]  step=909312  ep_rew=-0.4188  ep_len=30.9678  pi_loss=-0.0040  v_loss=0.9776  kl=0.0117  lr=0.0010  fps=42893  time=21s
+INFO:root:Step 909312;
+[Iter 38/4069]  step=933888  ep_rew=-0.4116  ep_len=30.3496  pi_loss=-0.0053  v_loss=0.9340  kl=0.0081  lr=0.0010  fps=42950  time=22s
+INFO:root:Step 933888;
+[Iter 39/4069]  step=958464  ep_rew=-0.3891  ep_len=31.3203  pi_loss=0.0001  v_loss=0.8847  kl=0.0153  lr=0.0010  fps=42881  time=22s
+INFO:root:Step 958464;
+[Iter 40/4069]  step=983040  ep_rew=-0.3909  ep_len=30.5303  pi_loss=-0.0050  v_loss=0.8308  kl=0.0092  lr=0.0010  fps=42896  time=23s
+INFO:root:Step 983040;
+INFO:root:[Eval] step=983040  ep_rew_mean=-0.3909  ep_len_mean=30.5
+[Iter 41/4069]  step=1007616  ep_rew=-0.3869  ep_len=30.9248  pi_loss=-0.0053  v_loss=0.7761  kl=0.0094  lr=0.0010  fps=42867  time=24s
+INFO:root:Step 1007616;
+[Iter 42/4069]  step=1032192  ep_rew=-0.3864  ep_len=30.3857  pi_loss=-0.0043  v_loss=0.7878  kl=0.0131  lr=0.0010  fps=42873  time=24s
+INFO:root:Step 1032192;
+[Iter 43/4069]  step=1056768  ep_rew=-0.3888  ep_len=30.4453  pi_loss=-0.0056  v_loss=0.7968  kl=0.0110  lr=0.0010  fps=42768  time=25s
+INFO:root:Step 1056768;
+[Iter 44/4069]  step=1081344  ep_rew=-0.3867  ep_len=31.4014  pi_loss=-0.0026  v_loss=0.7325  kl=0.0132  lr=0.0010  fps=42737  time=25s
+INFO:root:Step 1081344;
+[Iter 45/4069]  step=1105920  ep_rew=-0.3743  ep_len=30.1875  pi_loss=-0.0040  v_loss=0.7576  kl=0.0121  lr=0.0010  fps=42765  time=26s
+INFO:root:Step 1105920;
+[Iter 46/4069]  step=1130496  ep_rew=-0.3655  ep_len=30.5059  pi_loss=-0.0024  v_loss=0.7342  kl=0.0127  lr=0.0010  fps=42760  time=26s
+INFO:root:Step 1130496;
+[Iter 47/4069]  step=1155072  ep_rew=-0.3544  ep_len=30.6338  pi_loss=-0.0054  v_loss=0.6361  kl=0.0106  lr=0.0010  fps=42735  time=27s
+INFO:root:Step 1155072;
+[Iter 48/4069]  step=1179648  ep_rew=-0.3512  ep_len=30.4736  pi_loss=-0.0055  v_loss=0.6032  kl=0.0117  lr=0.0010  fps=42735  time=28s
+INFO:root:Step 1179648;
+[Iter 49/4069]  step=1204224  ep_rew=-0.3540  ep_len=30.6055  pi_loss=-0.0050  v_loss=0.6267  kl=0.0123  lr=0.0010  fps=42766  time=28s
+INFO:root:Step 1204224;
+[Iter 50/4069]  step=1228800  ep_rew=-0.3482  ep_len=29.8066  pi_loss=-0.0040  v_loss=0.6327  kl=0.0117  lr=0.0010  fps=42789  time=29s
+INFO:root:Step 1228800;
+INFO:root:[Eval] step=1228800  ep_rew_mean=-0.3482  ep_len_mean=29.8
+[Iter 51/4069]  step=1253376  ep_rew=-0.3465  ep_len=29.6172  pi_loss=-0.0055  v_loss=0.6112  kl=0.0104  lr=0.0010  fps=42798  time=29s
+INFO:root:Step 1253376;
+[Iter 52/4069]  step=1277952  ep_rew=-0.3457  ep_len=30.9756  pi_loss=-0.0034  v_loss=0.5804  kl=0.0119  lr=0.0010  fps=42805  time=30s
+INFO:root:Step 1277952;
+[Iter 53/4069]  step=1302528  ep_rew=-0.3347  ep_len=30.0586  pi_loss=-0.0051  v_loss=0.6088  kl=0.0123  lr=0.0010  fps=42784  time=30s
+INFO:root:Step 1302528;
+[Iter 54/4069]  step=1327104  ep_rew=-0.3421  ep_len=30.8691  pi_loss=-0.0063  v_loss=0.5961  kl=0.0105  lr=0.0010  fps=42789  time=31s
+INFO:root:Step 1327104;
+[Iter 55/4069]  step=1351680  ep_rew=-0.3454  ep_len=28.6289  pi_loss=-0.0070  v_loss=0.5962  kl=0.0119  lr=0.0010  fps=42805  time=32s
+INFO:root:Step 1351680;
+[Iter 56/4069]  step=1376256  ep_rew=-0.3346  ep_len=29.4082  pi_loss=-0.0073  v_loss=0.5663  kl=0.0105  lr=0.0010  fps=42769  time=32s
+INFO:root:Step 1376256;
+[Iter 57/4069]  step=1400832  ep_rew=-0.3311  ep_len=30.2812  pi_loss=-0.0057  v_loss=0.5409  kl=0.0104  lr=0.0010  fps=42806  time=33s
+INFO:root:Step 1400832;
+[Iter 58/4069]  step=1425408  ep_rew=-0.3317  ep_len=29.6729  pi_loss=-0.0057  v_loss=0.5538  kl=0.0093  lr=0.0010  fps=42828  time=33s
+INFO:root:Step 1425408;
+[Iter 59/4069]  step=1449984  ep_rew=-0.3260  ep_len=30.1738  pi_loss=-0.0050  v_loss=0.5386  kl=0.0124  lr=0.0010  fps=42839  time=34s
+INFO:root:Step 1449984;
+[Iter 60/4069]  step=1474560  ep_rew=-0.3204  ep_len=29.3467  pi_loss=-0.0059  v_loss=0.5632  kl=0.0093  lr=0.0010  fps=42869  time=34s
+INFO:root:Step 1474560;
+INFO:root:[Eval] step=1474560  ep_rew_mean=-0.3204  ep_len_mean=29.3
+[Iter 61/4069]  step=1499136  ep_rew=-0.3248  ep_len=30.0488  pi_loss=-0.0070  v_loss=0.5403  kl=0.0100  lr=0.0010  fps=42909  time=35s
+INFO:root:Step 1499136;
+[Iter 62/4069]  step=1523712  ep_rew=-0.3154  ep_len=28.9072  pi_loss=0.0019  v_loss=0.5597  kl=0.0192  lr=0.0010  fps=42912  time=36s
+INFO:root:Step 1523712;
+[Iter 63/4069]  step=1548288  ep_rew=-0.3205  ep_len=30.5527  pi_loss=-0.0060  v_loss=0.5349  kl=0.0094  lr=0.0010  fps=42893  time=36s
+INFO:root:Step 1548288;
+[Iter 64/4069]  step=1572864  ep_rew=-0.3174  ep_len=29.8291  pi_loss=-0.0071  v_loss=0.5699  kl=0.0082  lr=0.0010  fps=42862  time=37s
+INFO:root:Step 1572864;
+[Iter 65/4069]  step=1597440  ep_rew=-0.3212  ep_len=29.5254  pi_loss=-0.0063  v_loss=0.5781  kl=0.0082  lr=0.0010  fps=42785  time=37s
+INFO:root:Step 1597440;
+[Iter 66/4069]  step=1622016  ep_rew=-0.3146  ep_len=30.3389  pi_loss=-0.0051  v_loss=0.5570  kl=0.0128  lr=0.0010  fps=42737  time=38s
+INFO:root:Step 1622016;
+[Iter 67/4069]  step=1646592  ep_rew=-0.3199  ep_len=29.9238  pi_loss=-0.0003  v_loss=0.5646  kl=0.0149  lr=0.0010  fps=42710  time=39s
+INFO:root:Step 1646592;
+[Iter 68/4069]  step=1671168  ep_rew=-0.3154  ep_len=28.8652  pi_loss=-0.0054  v_loss=0.5335  kl=0.0111  lr=0.0010  fps=42715  time=39s
+INFO:root:Step 1671168;
+[Iter 69/4069]  step=1695744  ep_rew=-0.3022  ep_len=29.9727  pi_loss=-0.0072  v_loss=0.4919  kl=0.0101  lr=0.0010  fps=42698  time=40s
+INFO:root:Step 1695744;
+[Iter 70/4069]  step=1720320  ep_rew=-0.3138  ep_len=28.9131  pi_loss=-0.0064  v_loss=0.5208  kl=0.0107  lr=0.0010  fps=42699  time=40s
+INFO:root:Step 1720320;
+INFO:root:[Eval] step=1720320  ep_rew_mean=-0.3138  ep_len_mean=28.9
+[Iter 71/4069]  step=1744896  ep_rew=-0.3113  ep_len=29.7559  pi_loss=-0.0050  v_loss=0.5078  kl=0.0104  lr=0.0010  fps=42658  time=41s
+INFO:root:Step 1744896;
+[Iter 72/4069]  step=1769472  ep_rew=-0.3106  ep_len=30.3096  pi_loss=-0.0046  v_loss=0.4925  kl=0.0130  lr=0.0010  fps=42628  time=42s
+INFO:root:Step 1769472;
+[Iter 73/4069]  step=1794048  ep_rew=-0.3080  ep_len=29.4678  pi_loss=-0.0049  v_loss=0.5357  kl=0.0144  lr=0.0010  fps=42605  time=42s
+INFO:root:Step 1794048;
+[Iter 74/4069]  step=1818624  ep_rew=-0.3161  ep_len=30.6426  pi_loss=-0.0020  v_loss=0.5187  kl=0.0154  lr=0.0010  fps=42587  time=43s
+INFO:root:Step 1818624;
+[Iter 75/4069]  step=1843200  ep_rew=-0.3096  ep_len=28.6055  pi_loss=-0.0043  v_loss=0.5391  kl=0.0126  lr=0.0010  fps=42592  time=43s
+INFO:root:Step 1843200;
+[Iter 76/4069]  step=1867776  ep_rew=-0.3058  ep_len=29.4463  pi_loss=-0.0044  v_loss=0.4524  kl=0.0122  lr=0.0010  fps=42609  time=44s
+INFO:root:Step 1867776;
+Traceback (most recent call last):
+  File "demo_ppo.py", line 126, in <module>
+    main(args)
+  File "demo_ppo.py", line 121, in main
+    trainer.train()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/isaaconpolicytrainer.py", line 103, in train
+    self._train_agent()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/trainers/isaaconpolicytrainer.py", line 52, in _train_agent
+    self._agent.train_step()
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/models/model_free/isaacgym_ppo.py", line 421, in train_step
+    nxt_obs, rew, done, info, nxt_hist, nxt_cmd, nxt_critic = self._env_step_extras(actions)
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/models/model_free/isaacgym_ppo.py", line 246, in _env_step_extras
+    out = self._env.step(actions, return_extras=True)
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/envs/external/isaacgym/isaacgym.py", line 124, in step
+    out = self._env.step(actions)
+  File "/home/dpy/projects/D2C-XJTU-3.8/example/isaacgym/../../d2c/envs/external/isaacgym/envs/pointfoot_flat/pointfoot_flat.py", line 83, in step
+    self.gym.simulate(self.sim)
+KeyboardInterrupt
